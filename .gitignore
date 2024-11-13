@@ -1,0 +1,29 @@
+# Global ignores
+.vscode/
+.idea/
+.DS_Store
+*.log
+*node_modules/
+
+# Exclude environment files
+*.env
+
+# Exclude secret deployment file
+*secret.yaml
+
+
+# Node.js dependencies
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Output of npm pack
+*.tgz
